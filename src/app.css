@@ -1,22 +1,38 @@
-* {
+* { 
+    padding: 0; 
+    margin: 0; 
+}
+
+html > body > #root > div {
     font-family: 'Garamond';
     scroll-behavior: smooth;
+    height: 100vh !important;
+    margin: 0;
 }
 
 
-
 #chaldeas {
+    height: 100vh;
     font-size: 48px;
     text-align: center;
-
     margin-top: 25px;
-
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+
+.main {
+    height: 100vh;
+    text-align: center;
+}
+
+#card {
+    margin-top: 20vh;
+    padding: 20vh;
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -46,3 +62,4 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
