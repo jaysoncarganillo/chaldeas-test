@@ -29,7 +29,7 @@ html > body > #root > div {
     text-align: center;
 }
 
-#card > div > img {
+#card {
     margin-top: 20vh;
     padding: 20vh;
 }
