@@ -25,12 +25,17 @@ html > body > #root > div {
 
 .main {
     height: 100vh;
+    text-shadow: 2px 2px 4px #000000;
     text-align: center;
 }
 
-#card {
+#card > div > img {
     margin-top: 20vh;
     padding: 20vh;
+}
+
+#cardo {
+    box-shadow: 3px 3px 10px black;
 }
 
 

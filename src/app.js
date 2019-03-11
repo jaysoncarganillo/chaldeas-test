@@ -15,7 +15,7 @@ const App = () => {
             </div>
             <ScrollableAnchor id="section1">
                 <div class="main" id="card">
-                    <img src={Card}></img>
+                    <img id="cardo" src={Card}></img>
                 </div>
             </ScrollableAnchor>
         </div>
