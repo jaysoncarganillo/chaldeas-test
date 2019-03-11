@@ -38,6 +38,16 @@ html > body > #root > div {
     box-shadow: 3px 3px 10px black;
 }
 
+#down {
+    animation: blinker 1.75s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
