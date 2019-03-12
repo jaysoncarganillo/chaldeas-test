@@ -42,6 +42,11 @@ html > body > #root > div {
     animation: blinker 1.75s linear infinite;
 }
 
+#support-list{
+    margin-top: 10vh;
+    padding: 10vh;
+}
+
 @keyframes blinker {
     50% {
         opacity: 0;
