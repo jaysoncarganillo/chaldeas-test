@@ -42,10 +42,16 @@ html > body > #root > div {
     animation: blinker 1.75s linear infinite;
 }
 
-#support-list{
+#support-list-holder{
     margin-top: 10vh;
     padding: 10vh;
 }
+
+#ensupp {
+    box-shadow: 5px 5px 10px black;
+}
+
+
 
 @keyframes blinker {
     50% {
