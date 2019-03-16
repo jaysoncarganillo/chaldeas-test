@@ -4,9 +4,10 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import Logo from './chaldea.png';
 import Down from './downarrow.png';
 import Card from './CardContainer.jsx';
-import ENSupp from './en.jpg'
+import ENSupp from './ENSupportContainer.jsx';
 import JPSupp from './jp.png'
 import './app.css';
+import ENSupportContainer from './ENSupportContainer';
 
 const App = () => {
     return(
@@ -20,9 +21,7 @@ const App = () => {
                 <Card></Card>
             </ScrollableAnchor>
             <ScrollableAnchor id="section2">
-                <div class="main" id="support-list-holder">
-                    <img src={ENSupp} class="supp"></img>
-                </div>
+                <ENSupp></ENSupp>
             </ScrollableAnchor>
             <ScrollableAnchor id="section3">
             <div class="main" id="support-list-holder2">
