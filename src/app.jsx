@@ -5,9 +5,9 @@ import Logo from './chaldea.png';
 import Down from './downarrow.png';
 import Card from './CardContainer.jsx';
 import ENSupp from './ENSupportContainer.jsx';
-import JPSupp from './jp.png'
+import JPSupp from './JPSupportContainer.jsx';
 import './app.css';
-import ENSupportContainer from './ENSupportContainer';
+
 
 const App = () => {
     return(
@@ -24,9 +24,7 @@ const App = () => {
                 <ENSupp></ENSupp>
             </ScrollableAnchor>
             <ScrollableAnchor id="section3">
-            <div class="main" id="support-list-holder2">
-                    <img src={JPSupp} class="supp"></img>
-                </div>
+                <JPSupp></JPSupp>
             </ScrollableAnchor>
         </div>
     )
