@@ -35,7 +35,13 @@ html > body > #root > div {
 }
 
 #cardo {
+    transition: transform .2s;
     box-shadow: 3px 3px 10px black;
+}
+
+
+#cardo:hover {
+    transform: scale(1.2);
 }
 
 #down {
