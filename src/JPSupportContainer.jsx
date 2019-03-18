@@ -5,7 +5,7 @@ class JPSupportContainer extends React.Component {
 
     render() {
 		return (
-			<div class="main" id="support-list-holder">
+			<div class="main" id="support-list-holder1">
         <img src={JPSupp} class="supp"></img>
       </div>
 		)

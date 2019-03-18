@@ -5,7 +5,7 @@ class ENSupportContainer extends React.Component {
 
     render() {
 		return (
-			<div class="main" id="support-list-holder">
+			<div class="main" id="support-list-holder2">
         <img src={ENSupp} class="supp"></img>
       </div>
 		)
